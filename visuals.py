@@ -60,11 +60,11 @@ def evaluate(results, accuracy, f1):
     """
   
     # Create figure
-    fig, ax = pl.subplots(2, 4, figsize = (11,7))
+    fig, ax = pl.subplots(2, 4, figsize = (15,9))
 
     # Constants
-    bar_width = 0.3
-    colors = ['#A00000','#00A0A0','#00A000']
+    bar_width = 0.1
+    colors = ['#A00000','#00A0A0','#00A000', '#000000', '#F7DC6F', '#BB8FCE', '#EC7063']
     
     # Super loop to plot four panels of data
     for k, learner in enumerate(results.keys()):
